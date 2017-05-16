@@ -1,6 +1,6 @@
-package telephoneBook.Body;
+package telephoneBook.body;
 
-import telephoneBook.Body.book.Book;
+import telephoneBook.body.book.Book;
 
 import java.io.*;
 

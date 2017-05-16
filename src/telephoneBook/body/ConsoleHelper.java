@@ -1,4 +1,4 @@
-package telephoneBook.Body;
+package telephoneBook.body;
 
 import java.util.Scanner;
 
@@ -10,11 +10,11 @@ public class ConsoleHelper {
         return new Scanner(System.in).nextLine();
     }
 
-    public static void printConsoleLn(final String data){
+    public static void printConsoleLn(final String data) {
         System.out.println(data);
     }
 
-    public static void printConsole(final String data){
+    public static void printConsole(final String data) {
         System.out.print(data);
     }
 }

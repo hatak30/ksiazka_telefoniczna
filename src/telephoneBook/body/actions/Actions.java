@@ -1,6 +1,6 @@
-package telephoneBook.Body.actions;
+package telephoneBook.body.actions;
 
-import telephoneBook.Body.ConsoleHelper;
+import telephoneBook.body.ConsoleHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class Actions {
 
     List<Action> actions = new ArrayList<>();
 
-    private Actions(){
+    private Actions() {
         actions.add(new AddAction());
         actions.add(new RemoveAction());
         actions.add(new ViewAction());
@@ -22,13 +22,13 @@ public class Actions {
         actions.add(new EndAction());
     }
 
-    public static Actions createActions(){
+    public static Actions createActions() {
         return new Actions();
     }
 
     public void printActions() {
         ConsoleHelper.printConsoleLn("Select action: ");
-        actions.stream().forEach(action -> ConsoleHelper.printConsoleLn("\t" + (actions.indexOf(action) +1) + ": " + action.getName()));
+        actions.stream().forEach(action -> ConsoleHelper.printConsoleLn("\t" + (actions.indexOf(action) + 1) + ": " + action.getName()));
     }
 
     public Optional<Action> getSelectedAction(String actionName) {

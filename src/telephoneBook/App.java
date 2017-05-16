@@ -1,9 +1,9 @@
 package telephoneBook;
 
-import telephoneBook.Body.ConsoleHelper;
-import telephoneBook.Body.actions.Action;
-import telephoneBook.Body.actions.Actions;
-import telephoneBook.Body.actions.EndAction;
+import telephoneBook.body.ConsoleHelper;
+import telephoneBook.body.actions.Action;
+import telephoneBook.body.actions.Actions;
+import telephoneBook.body.actions.EndAction;
 
 import java.io.IOException;
 import java.util.Optional;

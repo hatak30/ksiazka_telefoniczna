@@ -1,9 +1,9 @@
-package telephoneBook.Body.actions;
+package telephoneBook.body.actions;
 
-import telephoneBook.Body.BookDAO;
-import telephoneBook.Body.ConsoleHelper;
-import telephoneBook.Body.book.Book;
-import telephoneBook.Body.book.Contact;
+import telephoneBook.body.BookDAO;
+import telephoneBook.body.ConsoleHelper;
+import telephoneBook.body.book.Book;
+import telephoneBook.body.book.Contact;
 
 /**
  * Created by hatak on 2/3/17.
@@ -26,9 +26,9 @@ public class AddAction extends Action {
             ConsoleHelper.printConsole("\tPhone number: ");
             String phoneNumber = ConsoleHelper.readConsole();
 
-            if(contact == null) {
+            if (contact == null) {
                 contact = new Contact(name, surname, phoneNumber);
-            }else {
+            } else {
                 contact.addNumber(phoneNumber);
             }
 

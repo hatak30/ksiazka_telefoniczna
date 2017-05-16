@@ -1,4 +1,4 @@
-package telephoneBook.Body.book;
+package telephoneBook.body.book;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by krzysiek on 08.01.17.
  */
-public class Contact implements Serializable{
+public class Contact implements Serializable {
 
     public static long serialVersionUID = 78437628;
 
@@ -50,7 +50,7 @@ public class Contact implements Serializable{
         return numbers;
     }
 
-    public void addNumber(final String number){
+    public void addNumber(final String number) {
         this.numbers.add(number);
     }
 }
