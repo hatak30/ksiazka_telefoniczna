@@ -1,4 +1,4 @@
-package telephoneBook.body;
+package com.tutorial.telephonebook;
 
 import java.util.Scanner;
 
