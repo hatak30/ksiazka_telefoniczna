@@ -6,6 +6,6 @@ package telephoneBook.Body.actions;
 public class EditAction extends Action{
     @Override
     public void execute() {
-
+        System.out.println("maciek");
     }
 }
