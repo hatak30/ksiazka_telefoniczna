@@ -35,8 +35,8 @@ public class EditAction extends Action {
 
                 System.out.println("Earlier surname: " + contact.getSureName());
                 System.out.println("do you won't change surname?   (y/n)");
-                String question_2 = ConsoleHelper.readConsole();
-                if (question_2.equalsIgnoreCase("y")) {
+                String secendQuestion = ConsoleHelper.readConsole();
+                if (secendQuestion.equalsIgnoreCase("y")) {
                     System.out.println("Enter a new surname");
                     String newSurname = ConsoleHelper.readConsole();
                     contact.setSureName(newSurname);
