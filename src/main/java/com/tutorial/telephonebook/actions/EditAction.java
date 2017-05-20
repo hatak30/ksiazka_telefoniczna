@@ -44,7 +44,7 @@ public class EditAction extends Action {
                     String newSurname = ConsoleHelper.readConsole();
                     contact.setSureName(newSurname);
                 }
-
+                System.out.println("Earlier number/numbers: " + contact.getNumbers());
                 // TODO: 2017-05-14 numberss
             }
         }
